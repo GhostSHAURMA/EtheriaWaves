@@ -1,0 +1,55 @@
+## Based on GitHub's Eclipse .gitignore
+
+run/
+common/run/
+fabric/run/
+neoforge/run/
+.gradle/
+build/
+common/build/
+fabric/build/
+neoforge/build/
+gradle-app.setting
+
+## IntelliJ IDEA
+
+.idea/
+out/
+*.iml
+*.iws
+*.ipr
+
+## Eclipse
+
+eclipse/
+*.pydevproject
+.project
+.metadata
+bin/
+common/bin/
+fabric/bin/
+neoforge/bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+/linkie-cache/
+
+.DS_Store

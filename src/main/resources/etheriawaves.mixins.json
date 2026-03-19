@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "ma.shaur.etheriawaves.mixin",
+	"mixins": [
+	],
+	"client": [
+		"EtheriaClientMixin",
+		"GeneralEventsMixin",
+		"KeybindsAccessor",
+		"StarWidgetMixin",
+		"MageMiconMixin",
+		"PageMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
